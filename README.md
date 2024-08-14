@@ -1,27 +1,33 @@
-# Proyecto Metropolitan Toring
+# metropolitandemo
 
-Este proyecto está compuesto por tres partes principales:
+Este proyecto es un ejemplo de aplicación Spring Boot que utiliza PostgreSQL como base de datos, Spring Data JPA para la persistencia de datos, y SpringDoc OpenAPI para la documentación de la API utilizando Swagger UI.
 
-1. **Backend**: Implementado en Java Spring Boot.
-2. **Frontend**: Implementado en React con TypeScript y Vite.
-3. **Base de Datos**: PostgreSQL.
+## Tecnologías Utilizadas
 
-## Requisitos Previos
+- **Spring Boot 3.3.2**
+- **Java 17**
+- **Maven**
+- **Spring Data JPA**
+- **PostgreSQL**
+- **Lombok**
+- **SpringDoc OpenAPI (Swagger UI)**
 
-Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu máquina:
+## Configuración del Proyecto
 
-- **Java 17** o superior
-- **Maven 3.6.3** o superior
-- **Node.js 14** o superior
-- **npm** (viene con Node.js)
-- **PostgreSQL 12** o superior
+### 1. Dependencias Maven
 
-## 1. Configuración del Backend
+Asegúrate de que tu archivo `pom.xml` incluya las siguientes dependencias para habilitar Swagger UI:
 
-### 1.1 Clonar el Repositorio
+```xml
+<dependencies>
+    <!-- Otras dependencias de tu proyecto -->
 
-Clona este repositorio en tu máquina local:
+    <!-- Swagger/OpenAPI con SpringDoc -->
+    <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+        <version>2.1.0</version>
+    </dependency>
 
-```bash
-git clone https://github.com/tu-repositorio/proyecto-metropolitan-toring.git
-cd proyecto-metropolitan-toring
+    <!-- Dependencias adicionales -->
+</dependencies>
