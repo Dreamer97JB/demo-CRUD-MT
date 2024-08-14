@@ -1,0 +1,29 @@
+# Ignorar la carpeta node_modules en el front-end
+Frontend/node_modules/
+
+# Ignorar dependencias y construcciones de Maven en el back-end
+backend/target/
+backend/.mvn/
+backend/.settings/
+backend/*.log
+backend/*.iml
+
+# Ignorar archivos de configuración de bases de datos locales o de entorno
+base/*.sql
+
+# Ignorar archivos de configuración del entorno (puedes crear un ejemplo .env.example)
+*.env
+*.env.local
+
+# Ignorar archivos específicos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones de IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
