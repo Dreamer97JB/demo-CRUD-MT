@@ -1,13 +1,13 @@
-package com.test.demo;
+package com.persona.metropolitan.metropolitandemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class MetropolitandemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(MetropolitandemoApplication.class, args);
 	}
 
 }

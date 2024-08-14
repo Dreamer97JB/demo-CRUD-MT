@@ -1,10 +1,10 @@
-package com.test.demo;
+package com.persona.metropolitan.metropolitandemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class MetropolitandemoApplicationTests {
 
 	@Test
 	void contextLoads() {
